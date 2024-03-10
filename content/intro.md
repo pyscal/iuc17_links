@@ -1,47 +1,62 @@
-# <font style="font-family:roboto;color:#455e6c;font-size:30px"> <b> pyscal </b> </font> </td>
+# <font style="font-family:roboto;color:#455e6c;font-size:30px"> <b> IUC17 </b> </font> </td>
 
 
 ::::::{grid} 2
 :gutter: 3
 
-:::::{grid-item-card} pyscal  
-:columns: 6
-:img-top: /img/pyscal_v2_logo_1.png
+:::::{grid-item-card} Open Crystallographic Defects Ontologies  
+:columns: 4
+:img-top: /img/ocdo_logo.png
+:link: https://github.com/OCDO
 
-pyscal is a python module for the calculation of local atomic structural environments including Steinhardt's bond orientational order parameters during post-processing of atomistic simulation data. pyscal is written in C++ and python and has been used in over 30 scientific publications.
-
-[documentation](https://docs.pyscal.org) &nbsp; | &nbsp; [repository](https://github.com/pyscal/pyscal) &nbsp; | &nbsp; [publication](https://joss.theoj.org/papers/10.21105/joss.01824)
-:::::
-
-:::::{grid-item-card} pyscal3  
-:columns: 6
-:img-top: /img/pyscal_v3_logo_1.png
-
-pyscal3, a completely new pyscal which is faster and can handle a large number of atoms, with a much more user-friendly and intuitive interface. Adds more features such as more structure creation including grain boundaries, selection, and deletion of atoms.
-
-[documentation](https://v3.pyscal.org) &nbsp; | &nbsp; [repository](https://github.com/pyscal/pyscal3) &nbsp; | &nbsp; [publication](https://joss.theoj.org/papers/10.21105/joss.01824)
+The Open Crystallographic Defects Ontologies is an initiative that aims to develop standard and interoperable semantics describing crystal defects and adjacent topics such as simulation concepts.
 :::::
 
 :::::{grid-item-card} pyscal-rdf  
-:columns: 6
-:img-top: /img/pyscal_rdf_logo_1.png
+:columns: 4
+:img-top: /img/pyscal_rdf_logo.png
+:link: https://rdf.pyscal.org
 
-pyscal_rdf is a python tool for ontology-based creation, manipulation, and quering of structures. pyscal_rdf combines the power of pyscal3 and the [Computational Material Sample Ontology (CMSO)](https://github.com/Materials-Data-Science-and-Informatics/cmso-ontology) to create annotated structures than be queried.
-
-[documentation](https://rdf.pyscal.org) &nbsp; | &nbsp; [repository](https://github.com/pyscal/pyscal_rdf) 
+pyscal_rdf is a python tool for ontology-based creation, manipulation, and quering of structures. pyscal_rdf combines the power of pyscal3 and the Computational Material Sample Ontology (CMSO) to create annotated structures than be queried.
 :::::
 
-:::::{grid-item} 
-::::{grid} 1 1 1 1
-:gutter: 0
+:::::{grid-item-card} IUC17 Web application demonstrator
+:columns: 4
+:img-top: /img/iuc17_gui_logo.png
+:link: https://notebooks.mpcdf.mpg.de/binder/v2/git/https%3A%2F%2Fgitlab.mpcdf.mpg.de%2Fpyiron%2FIUC17_demonstrator.git/HEAD?urlpath=voila%2Frender%2Fiuc17_demonstrator%2Fexample_gui.ipynb
 
-:::{grid-item-card} rdfjobs  
-:columns: 12
+Webapp with GUI which enables a user to create and download fully annotated atomic crystal structures including grain boundaries.
+:::::
 
-Extension package to pyscal-rdf that provides fully annotated simulation outputs using the workflow environment [pyiron](https://pyiron.org).
+:::::{grid-item-card} Computational Materials Sample Ontology
+:columns: 4
+:img-top: /img/cmso_logo.png
+:link: https://purls.helmholtz-metadaten.de/cmso/
 
-[documentation](https://rdf.pyscal.org) &nbsp; | &nbsp; [repository](https://github.com/pyscal/rdfjobs)
-:::
-::::
+CMSO is an ontology that aims to describe computational materials science samples (or structures), including crystalline defects. Initially focusing on the description at the atomic scale.
+:::::
+
+:::::{grid-item-card} Atomistic Simulation Methods Ontology
+:columns: 4
+:img-top: /img/asmo_logo.png
+:link: https://purls.helmholtz-metadaten.de/mmss/asmo
+
+ASMO is an ontology that aims to define the concepts needed to describe commonly used atomic scale simulation methods, i.e. density functional theory, molecular dynamics, Monte Carlo methods, etc. ASMO uses the Provenance Ontology (PROV-O) to describe the simulation process.
+:::::
+
+:::::{grid-item-card} CDOS - Crystallographic Defect Ontology Suite
+:columns: 4
+:img-top: /img/cdos_logo.jpg
+:link: https://github.com/OCDO/cdos
+
+CDOS contains the ontologies that describe crystallographic defects, following a modular approach according to the common classification of defects.
+:::::
+
+:::::{grid-item-card} IUC17 jupyter notebook
+:columns: 4
+:img-top: /img/iuc17_jupyter.jpg
+:link: https://notebooks.mpcdf.mpg.de/binder/v2/git/https%3A%2F%2Fgitlab.mpcdf.mpg.de%2Fpyiron%2FIUC17_demonstrator.git/HEAD?labpath=iuc17_demonstrator%2Fexample.ipynb
+
+Jupyter notebook illustrating usage of CMSO and pyscal-rdf in creating and querying atomic structures.
 :::::
 ::::::
