@@ -7,7 +7,7 @@
 :::::{grid-item-card} IUC17 demo
 :columns: 4
 :img-top: /img/iuc17_jupyter.jpg
-:link: https://notebooks.mpcdf.mpg.de/binder/v2/git/https%3A%2F%2Fgitlab.mpcdf.mpg.de%2Fpyiron%2FIUC17_demonstrator.git/b936f1e239204911ced785e2128e59e90db88c84?labpath=example.ipynb
+:link: https://notebooks.mpcdf.mpg.de/binder/v2/git/https%3A%2F%2Fgitlab.mpcdf.mpg.de%2Fpyiron%2FIUC17_demonstrator.git/b936f1e239204911ced785e2128e59e90db88c84?labpath=iuc17_demonstrator/example.ipynb
 
 Jupyter notebook illustrating usage of CMSO and atomRDF in creating and querying atomic structures.
 :::::
