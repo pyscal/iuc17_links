@@ -12,6 +12,14 @@
 Jupyter notebook illustrating usage of CMSO and atomRDF in creating and querying atomic structures.
 :::::
 
+:::::{grid-item-card} IUC17 demo: thermal expansion coefficient
+:columns: 4
+:img-top: /img/thermal_exp.png
+:link: https://thermal-expansion-example.readthedocs.io/en/latest/explore.html
+
+Jupyter notebook illustrating usage of CMSO, ASMO, and atomRDF in obtaining new materials properties from existing data.
+:::::
+
 :::::{grid-item-card} atomRDF  
 :columns: 4
 :img-top: /img/logo.png
